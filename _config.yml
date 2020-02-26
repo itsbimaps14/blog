@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Bima Putra S"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/img/logo.png"
   bio              : "I am an **amazing** person."
   location         : "Bandung, Indonesia"
   email            : "bimaputras.sz14@gmail.com"

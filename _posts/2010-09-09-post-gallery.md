@@ -1,5 +1,5 @@
 ---
-title: "Post: Gallery"
+title: "Task 3.6 - Proyek 1"
 categories:
   - Post Formats
 tags:
