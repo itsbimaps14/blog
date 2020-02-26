@@ -1,8 +1,8 @@
 ---
-title: "Post: Future Date"
-date: 9999-12-31
-categories:
+title: "About Me"
+date: 2020-02-26
+categories: Me
   - Post
 ---
 
-This post lives in the future and is dated {{ page.date | date: "%c" }}. When building Jekyll with the `--future` flag it should appear.
+Hello my name is Bima Putra S, My nick name is Bima. Right now im taking diploma 4 study in bandung polytechnic. I'm taking Informatics Engineering.
