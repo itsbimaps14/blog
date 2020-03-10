@@ -2,8 +2,8 @@
 main:
   - title: "Home"
   #   url: https://itsbimaps14.github.io/blog/_tugas/
-  - title: "About"
-    url: https://itsbimaps14.github.io/blog/_tugas/
+  - title: "Scrapping"
+    url: https://itsbimaps14.github.io/blog/lat_json.html
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
