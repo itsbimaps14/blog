@@ -1,8 +1,7 @@
 ---
-title: "About Me"
+title: "Web Scrapping"
 date: 2020-02-26
-categories: Me
-  - Post
+categories: Tugas
 ---
 
 <!--
@@ -36,21 +35,13 @@ categories: Me
 </html>
 -->
 
-<html>
-<head>
-    <title>Scrapping Web - Bima</title>
-
-    <link rel="shortcut icon" href="https://python-scripts.com/wp-content/uploads/2019/10/beautifulsoup-html-parsing-example.png">
-
+<body>
+	<link rel="shortcut icon" href="https://python-scripts.com/wp-content/uploads/2019/10/beautifulsoup-html-parsing-example.png">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
-
-
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet">
-</head>
-<body>
     <div class="row">
         <div class="col-md-10 offset-md-1">
             <hr>
@@ -75,7 +66,6 @@ categories: Me
     </div>
 </body>
 </html>
-
 <script type="text/javascript">
     $(document).ready(function () {
         $('#bimz').DataTable({
