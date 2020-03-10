@@ -18,9 +18,12 @@ for headline in obj.find_all('div', class_='conten1'):
     today = date.strftime("%A")+", "+date.strftime("%d")+" "+date.strftime("%B")+" "+date.strftime("%Y")
     tmpc = today
 
+    date = str(date.hour)+":"+str(date.minute)+":"+str(date.second)+" "+str(date.day)+"/"+str(date.month)+"/"+str(date.year)
+
     article['kateg'] = tmpa
     article['judul'] = tmpb
     article['waktu'] = tmpc
+    article['ambil'] = date
 
     all.append(dict(article))
 

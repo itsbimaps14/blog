@@ -56,9 +56,11 @@
             <table id="bimz" class="table table-striped table-bordered">
                 <thead>
                     <tr>
+                    	<th>No</th>
                         <th>Judul</th>
                         <th>Kategori</th>
-                        <th>Time</th>
+                        <th>Publlikasi</th>
+                        <th>Waktu Pengambilan</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -77,10 +79,17 @@
                 "url": "headline.json",
                 dataSrc:""
             },
+            "fnRowCallback": function(nRow,aData,iDisplayIndex,iDisplayIndexFull) {
+				var index = iDisplayIndex + 1;
+				$('td:eq(0)',nRow).html(index);
+				return nRow;
+			},
             "columns": [
                 { "data": "judul" },
+                { "data": "judul" },
                 { "data": "kateg" },
-                { "data": "waktu" }
+                { "data": "waktu" },
+                { "data": "ambil" }
             ]
         });
     });
